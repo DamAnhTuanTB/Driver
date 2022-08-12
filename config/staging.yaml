@@ -1,0 +1,5 @@
+baseUrl:
+  apiOps: 'https://api.staging2.setel.my'
+
+appUrl:
+  webcommon: 'https://web-bundles.setel.my/staging/web-common/latest'

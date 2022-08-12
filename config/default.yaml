@@ -1,0 +1,6 @@
+baseUrl:
+  apiOps: 'https://api.dev2.setel.my'
+
+appUrl:
+  webcommon: 'https://web-bundles.setel.my/dev/web-common/latest'
+  webdebug: 'https://web-bundles.setel.my/dev/web-debug/latest'

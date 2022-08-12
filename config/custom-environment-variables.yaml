@@ -1,0 +1,5 @@
+baseUrl:
+  apiOps: API_OPS_BASE_URL
+
+appUrl:
+  webcommon: WEB_COMMON_APP_URL

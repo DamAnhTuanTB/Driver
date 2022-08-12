@@ -1,0 +1,5 @@
+baseUrl:
+  apiOps: 'https://api.pre-prod2.setel.my'
+
+appUrl:
+  webcommon: 'https://web-bundles.setel.my/pre-prod/web-common/latest'

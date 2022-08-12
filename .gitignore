@@ -1,0 +1,12 @@
+node_modules/
+
+.DS_Store
+
+build/
+docs/
+types/
+coverage/
+junit.xml
+test-report.xml
+
+.env
