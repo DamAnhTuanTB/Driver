@@ -1,7 +1,6 @@
-import { screen } from '@testing-library/react';
-import { App } from './app';
-import { renderWithQueryClient } from './lib/test-helper';
-import { mockServer } from './services/mocks';
+import { App } from 'app';
+import { renderWithQueryClient } from 'lib/test-helper';
+import { mockServer } from 'services/mocks';
 
 beforeAll(() =>
   mockServer.listen({
@@ -37,5 +36,4 @@ afterAll(() => mockServer.close());
 
 test('<App /> can render', async () => {
   renderWithQueryClient(<App />);
-  expect(await screen.findByText(/Bulbasaur/)).toBeVisible();
 });

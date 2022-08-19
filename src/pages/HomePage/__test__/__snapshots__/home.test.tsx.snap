@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test able to render snap home 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="welcome-test"
+  >
+    welcome to driver team
+  </div>
+</DocumentFragment>
+`;

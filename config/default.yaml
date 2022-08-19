@@ -1,5 +1,7 @@
 baseUrl:
-  apiOps: 'https://api.dev2.setel.my'
+  # apiOps: 'https://api.dev2.setel.my'
+  apiOps: 'https://api.dev.logistika.com.my/api/receiver'
+
 
 appUrl:
   webcommon: 'https://web-bundles.setel.my/dev/web-common/latest'
