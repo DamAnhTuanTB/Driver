@@ -1,18 +1,17 @@
 
-import { Button } from "@setel/web-ui";
-import { useGlobalContext } from "lib/globalContext";
-import { useHistory, withRouter } from "react-router-dom";
-import { useTranslation } from 'react-i18next';
+import { withRouter } from "react-router-dom";
+import Car from 'images/Car.svg';
 
 function HomeCenter() {
-    const history = useHistory();
-    const { copy } = useGlobalContext()
-    const { t } = useTranslation();
-
     return (
-        <div className="flex flex-col" data-testid="welcome-test">
-            {copy}
-            <Button className="items-stretch" onClick={() => history.push('/next-step')}>{t('next')}</Button>
+        <div className="">
+            <div className="flex w-[100%] h-[189px] bg-[#123F68] items-center">
+                <div className="px-[20px]">
+                    <div className="text-white font-normal leading-[23px]">Order your road tax online and we’ll deliver it to you.</div>
+                    <div className="text-[#00B0FF] uppercase font-bold leading-[18px] tracking-wider text-xs mt-[12px]">How it works</div>
+                </div>
+                <img className="h-[165px] w-[50%] self-end" src={Car} alt="car placeholder" />
+            </div>
         </div>);
 }
 

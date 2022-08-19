@@ -12,7 +12,7 @@ function Home() {
     // });
 
     return (
-        <div className="flex min-h-screen items-center justify-center">
+        <div className="min-h-screen w-[500px] max-w-full mx-auto">
             <HomeCenter />
         </div>
     );
